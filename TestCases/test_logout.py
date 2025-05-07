@@ -20,4 +20,3 @@ class TestLogout:
         # Verify logout successful
         assert self.login_page.is_login_page_displayed(), "Login page is not displayed after logout"
         self.login_page.take_screenshot("successful_logout")
-
