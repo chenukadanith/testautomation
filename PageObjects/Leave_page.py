@@ -1,4 +1,4 @@
-# PageObjects/leave_page.py
+# PageObjects/Leave_page.py
 from selenium.webdriver.common.by import By
 from PageObjects.base_page import BasePage
 
