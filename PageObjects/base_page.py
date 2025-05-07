@@ -4,7 +4,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import os
 import datetime
 
-class BasePage:
+class BasePae:
     """Base class for all page objects"""
 
     def __init__(self, driver):
