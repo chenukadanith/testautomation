@@ -1,7 +1,7 @@
-# PageObjects/Login_page.py
+# PageObjects/login_page.py
 from selenium.webdriver.common.by import By
 from PageObjects.base_page import BasePage
-from PageObjects.Dashboard_page import DashboardPage
+from PageObjects.dashboard_page import DashboardPage
 from Config.config import TestData
 
 class LoginPage(BasePage):

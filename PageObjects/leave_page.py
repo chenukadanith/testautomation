@@ -1,7 +1,6 @@
-# PageObjects/Leave_page.py
+# PageObjects/leave_page.py
 from selenium.webdriver.common.by import By
 from PageObjects.base_page import BasePage
-
 class LeavePage(BasePage):
     """Leave page object model"""
 

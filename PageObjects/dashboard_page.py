@@ -1,4 +1,4 @@
-# PageObjects/Dashboard_page.py
+# PageObjects/dashboard_page.py
 from selenium.webdriver.common.by import By
 from PageObjects.base_page import BasePage
 from Config.config import TestData
@@ -26,13 +26,13 @@ class DashboardPage(BasePage):
     def click_my_leave(self):
         """Click on My Leave icon"""
         self.click(self.MY_LEAVE_ICON)
-        from PageObjects.Leave_page import LeavePage
+        from PageObjects.leave_page import LeavePage
         return LeavePage(self.driver)
 
     def perform_logout(self):
         """Perform logout"""
         self.click(self.USER_DROPDOWN)
         self.click(self.LOGOUT_OPTION)
-        from PageObjects.Login_page import LoginPage
+        from PageObjects.login_page import LoginPage
         return LoginPage(self.driver)
 

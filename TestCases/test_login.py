@@ -1,6 +1,6 @@
 # TestCases/test_login.py
 import pytest
-from PageObjects.Login_page import LoginPage
+from PageObjects.login_page import LoginPage
 from Config.config import TestData
 
 @pytest.mark.usefixtures("init_driver")
